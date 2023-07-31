@@ -7,7 +7,7 @@
 
 	const { data, xGet, yGet, xScale, yScale, extents } = getContext('LayerCake');
 
-	export let fill = '#ab00d610';
+	export let fill = '#E8830010';
 
 	$: path = 'M' + $data
 		.map(d => {
